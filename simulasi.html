@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simulasi Sistem - AdaptiXLearn</title>
-    <meta name="description" content="Demo dan simulasi sistem AdaptiXLearn - <em>Learning Management System</em> adaptif dengan antarmuka yang menyesuaikan beban kognitif pengguna.">
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
-    
+    <meta name="description"
+        content="Demo dan simulasi sistem AdaptiXLearn - <em>Learning Management System</em> adaptif dengan antarmuka yang menyesuaikan beban kognitif pengguna.">
+    <link rel="icon" type="image/x-icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -39,6 +44,7 @@
         }
     </script>
 </head>
+
 <body class="bg-gray-50 text-gray-900 antialiased">
     <!-- Header -->
     <header class="bg-white shadow-lg sticky top-0 z-50 border-b border-gray-200">
@@ -46,42 +52,56 @@
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
                     <a href="index.html" class="flex items-center space-x-3">
-                        <div class="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
                             <span class="text-white font-bold text-lg">A</span>
                         </div>
                         <span class="text-xl font-bold text-gray-900">AdaptiXLearn</span>
                     </a>
                 </div>
-                  <!-- Desktop Navigation -->
+                <!-- Desktop Navigation -->
                 <div class="hidden lg:flex items-center space-x-8">
-                    <a href="index.html" class="text-gray-600 hover:text-primary-600 transition-colors">Beranda</a>                    <a href="tentang-sistem.html" class="text-gray-600 hover:text-primary-600 transition-colors">Tentang</a>
+                    <a href="index.html" class="text-gray-600 hover:text-primary-600 transition-colors">Beranda</a> <a
+                        href="tentang-sistem.html"
+                        class="text-gray-600 hover:text-primary-600 transition-colors">Tentang</a>
                     <a href="fitur-utama.html" class="text-gray-600 hover:text-primary-600 transition-colors">Fitur</a>
-                    <a href="dataset-publikasi.html" class="text-gray-600 hover:text-primary-600 transition-colors"><em>Dataset</em> & Publikasi</a>
-                    <a href="simulasi.html" class="text-primary-600 font-medium border-b-2 border-primary-600 pb-1">Simulasi</a>
-                    <a href="evaluasi-dokumentasi.html" class="text-gray-600 hover:text-primary-600 transition-colors">Evaluasi</a>
+                    <a href="dataset-publikasi.html"
+                        class="text-gray-600 hover:text-primary-600 transition-colors"><em>Dataset</em> & Publikasi</a>
+                    <a href="simulasi.html"
+                        class="text-primary-600 font-medium border-b-2 border-primary-600 pb-1">Simulasi</a>
+                    <a href="evaluasi-dokumentasi.html"
+                        class="text-gray-600 hover:text-primary-600 transition-colors">Evaluasi</a>
                     <a href="tim-pengembang.html" class="text-gray-600 hover:text-primary-600 transition-colors">Tim</a>
-                    <a href="kontak-kolaborasi.html" class="text-gray-600 hover:text-primary-600 transition-colors">Kontak</a>
+                    <a href="kontak-kolaborasi.html"
+                        class="text-gray-600 hover:text-primary-600 transition-colors">Kontak</a>
                 </div>
-                
+
                 <!-- Mobile menu button -->
                 <div class="lg:hidden flex items-center">
-                    <button type="button" class="mobile-menu-button text-gray-600 hover:text-primary-600 focus:outline-none focus:text-primary-600">
+                    <button type="button"
+                        class="mobile-menu-button text-gray-600 hover:text-primary-600 focus:outline-none focus:text-primary-600">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </button>
                 </div>
             </div>
-              <!-- Mobile Navigation -->
+            <!-- Mobile Navigation -->
             <div class="mobile-menu hidden lg:hidden">
                 <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200">
-                    <a href="index.html" class="block px-3 py-2 text-gray-600 hover:text-primary-600">Beranda</a>                    <a href="tentang-sistem.html" class="block px-3 py-2 text-gray-600 hover:text-primary-600">Tentang</a>
+                    <a href="index.html" class="block px-3 py-2 text-gray-600 hover:text-primary-600">Beranda</a> <a
+                        href="tentang-sistem.html"
+                        class="block px-3 py-2 text-gray-600 hover:text-primary-600">Tentang</a>
                     <a href="fitur-utama.html" class="block px-3 py-2 text-gray-600 hover:text-primary-600">Fitur</a>
-                    <a href="dataset-publikasi.html" class="block px-3 py-2 text-gray-600 hover:text-primary-600"><em>Dataset</em> & Publikasi</a>
+                    <a href="dataset-publikasi.html"
+                        class="block px-3 py-2 text-gray-600 hover:text-primary-600"><em>Dataset</em> & Publikasi</a>
                     <a href="simulasi.html" class="block px-3 py-2 text-primary-600 font-medium">Simulasi</a>
-                    <a href="evaluasi-dokumentasi.html" class="block px-3 py-2 text-gray-600 hover:text-primary-600">Evaluasi</a>
+                    <a href="evaluasi-dokumentasi.html"
+                        class="block px-3 py-2 text-gray-600 hover:text-primary-600">Evaluasi</a>
                     <a href="tim-pengembang.html" class="block px-3 py-2 text-gray-600 hover:text-primary-600">Tim</a>
-                    <a href="kontak-kolaborasi.html" class="block px-3 py-2 text-gray-600 hover:text-primary-600">Kontak</a>
+                    <a href="kontak-kolaborasi.html"
+                        class="block px-3 py-2 text-gray-600 hover:text-primary-600">Kontak</a>
                 </div>
             </div>
         </nav>
@@ -95,7 +115,8 @@
                 <div class="text-center">
                     <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Simulasi Sistem</h1>
                     <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                        Jelajahi demo interaktif AdaptiXLearn dan lihat bagaimana sistem beradaptasi dengan beban kognitif pengguna
+                        Jelajahi demo interaktif AdaptiXLearn dan lihat bagaimana sistem beradaptasi dengan beban
+                        kognitif pengguna
                     </p>
                 </div>
             </div>
@@ -111,7 +132,8 @@
                         </li>
                         <li>
                             <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
                             </svg>
                         </li>
                         <li>
@@ -120,34 +142,85 @@
                     </ol>
                 </nav>
             </div>
-        </section>        <!-- Screenshot Section -->
+        </section> <!-- Screenshot Section -->
         <section class="py-20 bg-gray-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6"><em>Screenshot</em> Antarmuka LMS dengan AUI</h2>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6"><em>Screenshot</em> Antarmuka LMS
+                        dengan AUI</h2>
                     <p class="text-xl text-gray-600 max-w-4xl mx-auto">
-                        Dokumentasi visual dari antarmuka AdaptiXLearn yang menunjukkan adaptasi berdasarkan beban kognitif
+                        Dokumentasi visual dari antarmuka AdaptiXLearn yang menunjukkan adaptasi berdasarkan beban
+                        kognitif
                     </p>
                 </div>
-                
-                <!-- Simple Placeholder as per TODO.md -->
-                <div class="bg-white rounded-2xl shadow-xl p-12">
-                    <div class="text-center">
-                        <div class="bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl h-96 flex items-center justify-center border-2 border-dashed border-gray-300 mb-6">
-                            <div class="text-center">
-                                <svg class="w-20 h-20 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
-                                </svg>
-                                <p class="text-2xl font-medium text-gray-500 mb-2">
-                                    [<em>IMAGE PLACEHOLDER: Screenshot of LMS with AUI</em>]
-                                </p>
-                                <p class="text-gray-500 mt-2">[Menyusul]</p>
+
+                <!-- Interface Carousel -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 lg:p-12">
+                    <div class="relative max-w-5xl mx-auto">
+                        <!-- Carousel Container -->
+                        <div class="relative overflow-hidden rounded-xl">
+                            <div id="carousel-container" class="flex transition-transform duration-500 ease-in-out">
+                                <!-- Slide 1 -->
+                                <div class="w-full flex-shrink-0">
+                                    <img src="images/interface/antarmuka-1.png"
+                                        alt="Antarmuka AdaptiXLearn - Tampilan 1"
+                                        class="w-full h-auto rounded-lg shadow-lg">
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="w-full flex-shrink-0">
+                                    <img src="images/interface/antarmuka-2.png"
+                                        alt="Antarmuka AdaptiXLearn - Tampilan 2"
+                                        class="w-full h-auto rounded-lg shadow-lg">
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="w-full flex-shrink-0">
+                                    <img src="images/interface/antarmuka-3.png"
+                                        alt="Antarmuka AdaptiXLearn - Tampilan 3"
+                                        class="w-full h-auto rounded-lg shadow-lg">
+                                </div>
+                                <!-- Slide 4 -->
+                                <div class="w-full flex-shrink-0">
+                                    <img src="images/interface/antarmuka-4.png"
+                                        alt="Antarmuka AdaptiXLearn - Tampilan 4"
+                                        class="w-full h-auto rounded-lg shadow-lg">
+                                </div>
                             </div>
                         </div>
-                        <p class="text-lg text-gray-600">
-                            <em>Screenshot</em> antarmuka sistem akan ditambahkan untuk menunjukkan berbagai adaptasi 
-                            berdasarkan tingkat beban kognitif pengguna.
-                        </p>
+
+                        <!-- Navigation Buttons -->
+                        <button id="prev-btn"
+                            class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-gray-800 rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 group">
+                            <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7"></path>
+                            </svg>
+                        </button>
+
+                        <button id="next-btn"
+                            class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/90 hover:bg-white text-gray-800 rounded-full p-3 shadow-lg hover:shadow-xl transition-all duration-300 group">
+                            <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
+                            </svg>
+                        </button>
+
+                        <!-- Indicators -->
+                        <div class="flex justify-center space-x-2 mt-6">
+                            <button
+                                class="carousel-indicator w-3 h-3 rounded-full bg-primary-600 transition-all duration-300"
+                                data-slide="0"></button>
+                            <button
+                                class="carousel-indicator w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition-all duration-300"
+                                data-slide="1"></button>
+                            <button
+                                class="carousel-indicator w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition-all duration-300"
+                                data-slide="2"></button>
+                            <button
+                                class="carousel-indicator w-3 h-3 rounded-full bg-gray-300 hover:bg-gray-400 transition-all duration-300"
+                                data-slide="3"></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -159,26 +232,31 @@
                 <div class="text-center mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Akses Sistem Langsung</h2>
                     <p class="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
-                        AdaptiXLearn telah diimplementasikan dan dapat diakses secara langsung untuk pengalaman hands-on 
+                        AdaptiXLearn telah diimplementasikan dan dapat diakses secara langsung untuk pengalaman hands-on
                         dengan sistem pembelajaran adaptif berbasis beban kognitif.
                     </p>
                 </div>
-                
+
                 <div class="max-w-4xl mx-auto">
                     <div class="bg-gradient-to-r from-primary-50 to-blue-50 rounded-3xl p-8 lg:p-12 shadow-xl">
                         <div class="text-center mb-8">
-                            <div class="w-20 h-20 bg-gradient-to-br from-primary-500 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <div
+                                class="w-20 h-20 bg-gradient-to-br from-primary-500 to-primary-700 rounded-full flex items-center justify-center mx-auto mb-6">
                                 <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                    </path>
                                 </svg>
                             </div>
                             <h3 class="text-2xl font-bold text-gray-900 mb-4">Platform Demo AdaptiXLearn</h3>
                             <p class="text-lg text-gray-700 mb-8">
-                                Sistem live yang mendemonstrasikan kemampuan adaptasi antarmuka berdasarkan deteksi                                beban kognitif <em>real-time</em>. Platform ini memungkinkan Anda merasakan langsung bagaimana 
+                                Sistem live yang mendemonstrasikan kemampuan adaptasi antarmuka berdasarkan deteksi
+                                beban kognitif <em>real-time</em>. Platform ini memungkinkan Anda merasakan langsung
+                                bagaimana
                                 teknologi AUI bekerja dalam konteks pembelajaran.
                             </p>
                         </div>
-                        
+
                         <div class="bg-white rounded-2xl p-6 mb-8">
                             <div class="flex items-center justify-between mb-4">
                                 <div class="flex items-center space-x-3">
@@ -187,47 +265,55 @@
                                 </div>
                                 <div class="flex items-center space-x-2 text-sm text-gray-500">
                                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z">
+                                        </path>
                                     </svg>
                                     <span><em>Secure Connection</em></span>
                                 </div>
                             </div>
-                            
+
                             <div class="text-center">
                                 <p class="text-lg font-medium text-gray-900 mb-2">URL Sistem:</p>
                                 <div class="bg-gray-100 rounded-lg p-4 mb-6">
                                     <code class="text-primary-600 font-mono text-lg">https://edico.ibonk.id/</code>
                                 </div>
-                                
-                                <a href="https://edico.ibonk.id/" 
-                                   target="_blank" 
-                                   class="inline-flex items-center px-8 py-4 bg-primary-600 text-white font-semibold text-lg rounded-lg hover:bg-primary-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+
+                                <a href="https://edico.ibonk.id/" target="_blank"
+                                    class="inline-flex items-center px-8 py-4 bg-primary-600 text-white font-semibold text-lg rounded-lg hover:bg-primary-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                                     <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14">
+                                        </path>
                                     </svg>
                                     Akses Sistem AdaptiXLearn
                                 </a>
                             </div>
                         </div>
-                        
+
                         <!-- System Features Highlight -->
                         <div class="grid md:grid-cols-2 gap-6">
                             <div class="bg-white rounded-xl p-6">
                                 <div class="flex items-center mb-3">
-                                    <svg class="w-6 h-6 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    <svg class="w-6 h-6 text-blue-600 mr-2" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                                     </svg>
                                     <h4 class="font-semibold text-gray-900"><em>Real-time Detection</em></h4>
                                 </div>
                                 <p class="text-sm text-gray-600">
-                                    Sistem mendeteksi beban kognitif Anda secara <em>real-time</em> menggunakan data <em>eye-gaze</em> dan interaksi.
+                                    Sistem mendeteksi beban kognitif Anda secara <em>real-time</em> menggunakan data
+                                    <em>eye-gaze</em> dan interaksi.
                                 </p>
                             </div>
-                            
+
                             <div class="bg-white rounded-xl p-6">
                                 <div class="flex items-center mb-3">
-                                    <svg class="w-6 h-6 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    <svg class="w-6 h-6 text-green-600 mr-2" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                                     </svg>
                                     <h4 class="font-semibold text-gray-900"><em>Adaptive Interface</em></h4>
                                 </div>
@@ -238,7 +324,8 @@
                         </div>
                     </div>
                 </div>
-            </div>        </section>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -247,27 +334,31 @@
             <div class="grid md:grid-cols-4 gap-8">
                 <div class="md:col-span-2">
                     <div class="flex items-center space-x-3 mb-4">
-                        <div class="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
+                        <div
+                            class="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
                             <span class="text-white font-bold text-lg">A</span>
                         </div>
                         <span class="text-xl font-bold">AdaptiXLearn</span>
                     </div>
                     <p class="text-gray-300 mb-4 leading-relaxed">
-                        Sistem pembelajaran adaptif berbasis beban kognitif yang dikembangkan untuk meningkatkan 
+                        Sistem pembelajaran adaptif berbasis beban kognitif yang dikembangkan untuk meningkatkan
                         kualitas pembelajaran daring di perguruan tinggi.
                     </p>
                 </div>
-                
+
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Navigasi</h3>
                     <ul class="space-y-2 text-gray-300">
-                        <li><a href="tentang-sistem.html" class="hover:text-white transition-colors">Tentang Sistem</a></li>
+                        <li><a href="tentang-sistem.html" class="hover:text-white transition-colors">Tentang Sistem</a>
+                        </li>
                         <li><a href="fitur-utama.html" class="hover:text-white transition-colors">Fitur Utama</a></li>
-                        <li><a href="dataset-publikasi.html" class="hover:text-white transition-colors"><em>Dataset</em> & Publikasi</a></li>
-                        <li><a href="tim-pengembang.html" class="hover:text-white transition-colors">Tim Pengembang</a></li>
+                        <li><a href="dataset-publikasi.html" class="hover:text-white transition-colors"><em>Dataset</em>
+                                & Publikasi</a></li>
+                        <li><a href="tim-pengembang.html" class="hover:text-white transition-colors">Tim Pengembang</a>
+                        </li>
                     </ul>
                 </div>
-                
+
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Kontak</h3>
                     <ul class="space-y-2 text-gray-300">
@@ -280,31 +371,82 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="border-t border-gray-700 pt-8 mt-8 text-center">
                 <p class="text-gray-300">
-                    © 2024 AdaptiXLearn. All rights reserved.
+                    © 2025 AdaptiXLearn. All rights reserved.
                 </p>
             </div>
         </div>
-    </footer>
-
-    <!-- JavaScript for Mobile Menu -->
+    </footer> <!-- JavaScript for Mobile Menu and Carousel -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mobile Menu Functionality
             const mobileMenuButton = document.querySelector('.mobile-menu-button');
             const mobileMenu = document.querySelector('.mobile-menu');
-            
-            mobileMenuButton.addEventListener('click', function() {
+
+            mobileMenuButton.addEventListener('click', function () {
                 mobileMenu.classList.toggle('hidden');
             });
-            
-            document.addEventListener('click', function(event) {
+
+            document.addEventListener('click', function (event) {
                 if (!mobileMenuButton.contains(event.target) && !mobileMenu.contains(event.target)) {
                     mobileMenu.classList.add('hidden');
+                }
+            });            // Carousel Functionality
+            const carouselContainer = document.getElementById('carousel-container');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const indicators = document.querySelectorAll('.carousel-indicator');
+
+            let currentSlide = 0;
+            const totalSlides = 4;
+
+            function updateCarousel() {
+                const translateX = -currentSlide * 100;
+                carouselContainer.style.transform = `translateX(${translateX}%)`;
+
+                // Update indicators
+                indicators.forEach((indicator, index) => {
+                    if (index === currentSlide) {
+                        indicator.classList.remove('bg-gray-300');
+                        indicator.classList.add('bg-primary-600');
+                    } else {
+                        indicator.classList.remove('bg-primary-600');
+                        indicator.classList.add('bg-gray-300');
+                    }
+                });
+            } function nextSlide() {
+                currentSlide = (currentSlide + 1) % totalSlides;
+                updateCarousel();
+            }
+
+            function prevSlide() {
+                currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                updateCarousel();
+            }
+
+            // Event listeners for navigation buttons
+            nextBtn.addEventListener('click', nextSlide);
+            prevBtn.addEventListener('click', prevSlide);
+            // Event listeners for indicators
+            indicators.forEach((indicator, index) => {
+                indicator.addEventListener('click', () => {
+                    currentSlide = index;
+                    updateCarousel();
+                });
+            });
+
+            // Keyboard navigation
+            document.addEventListener('keydown', function (event) {
+                if (event.key === 'ArrowLeft') {
+                    prevSlide();
+                } else if (event.key === 'ArrowRight') {
+                    nextSlide();
                 }
             });
         });
     </script>
 </body>
+
 </html>
