@@ -6,83 +6,12 @@
     <title>Evaluasi & Dokumentasi - AdaptiXLearn</title>
     <meta name="description" content="Evaluasi sistem AdaptiXLearn menggunakan metodologi Independent T-test, SUS, dan UEQ+ untuk menilai efektivitas Adaptive User Interface.">
     <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        'sans': ['Inter', 'system-ui', 'sans-serif'],
-                        'serif': ['Merriweather', 'Georgia', 'serif'],
-                    },
-                    colors: {
-                        primary: {
-                            50: '#f0f9ff',
-                            100: '#e0f2fe',
-                            200: '#bae6fd',
-                            300: '#7dd3fc',
-                            400: '#38bdf8',
-                            500: '#0ea5e9',
-                            600: '#0284c7',
-                            700: '#0369a1',
-                            800: '#075985',
-                            900: '#0c4a6e',
-                        },
-                        secondary: {
-                            50: '#f8fafc',
-                            100: '#f1f5f9',
-                            200: '#e2e8f0',
-                            300: '#cbd5e1',
-                            400: '#94a3b8',
-                            500: '#64748b',
-                            600: '#475569',
-                            700: '#334155',
-                            800: '#1e293b',
-                            900: '#0f172a',
-                        },
-                        accent: {
-                            50: '#fef7ff',
-                            100: '#fceeff',
-                            200: '#f9ddff',
-                            300: '#f4bfff',
-                            400: '#ec94ff',
-                            500: '#e061ff',
-                            600: '#d138f5',
-                            700: '#b820d8',
-                            800: '#9a1bb0',
-                            900: '#7e1a8d',
-                        }
-                    },
-                    animation: {
-                        'fade-in': 'fadeIn 0.5s ease-in-out',
-                        'slide-up': 'slideUp 0.5s ease-out',
-                        'float': 'float 3s ease-in-out infinite',
-                    },
-                    keyframes: {
-                        fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' },
-                        },
-                        slideUp: {
-                            '0%': { transform: 'translateY(20px)', opacity: '0' },
-                            '100%': { transform: 'translateY(0)', opacity: '1' },
-                        },
-                        float: {
-                            '0%, 100%': { transform: 'translateY(0px)' },
-                            '50%': { transform: 'translateY(-10px)' },
-                        }
-                    }
-                }
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="build.css" />
 </head>
 <body class="bg-gray-50 text-gray-900 antialiased">
     <!-- Header -->
@@ -107,7 +36,7 @@
                     <a href="tim-pengembang.html" class="text-gray-600 hover:text-primary-600 transition-colors">Tim</a>
                     <a href="kontak-kolaborasi.html" class="text-gray-600 hover:text-primary-600 transition-colors">Kontak</a>
                 </div>
-                
+
                 <!-- Mobile menu button -->
                 <div class="lg:hidden flex items-center">
                     <button type="button" class="mobile-menu-button text-gray-600 hover:text-primary-600 focus:outline-none focus:text-primary-600" aria-label="Toggle menu">
@@ -173,9 +102,9 @@
                         <h3 class="text-xl font-semibold text-primary-700 mb-4">Metodologi Evaluasi (<em>Independent</em> T-test, SUS, dan UEQ+)</h3>
                         <div class="prose prose-lg max-w-none">
                             <p class="text-lg text-gray-700 leading-relaxed">
-                                Untuk menilai efektivitas sistem <em>Adaptive User Interface</em> (AUI) dalam LMS yang dikembangkan, 
-                                penelitian ini menggunakan metode evaluasi kuantitatif yang mencakup pengujian statistik dan 
-                                pengukuran persepsi pengguna. Evaluasi dilakukan dengan melibatkan dua kelompok: kelompok 
+                                Untuk menilai efektivitas sistem <em>Adaptive User Interface</em> (AUI) dalam LMS yang dikembangkan,
+                                penelitian ini menggunakan metode evaluasi kuantitatif yang mencakup pengujian statistik dan
+                                pengukuran persepsi pengguna. Evaluasi dilakukan dengan melibatkan dua kelompok: kelompok
                                 eksperimen (menggunakan LMS dengan AUI) dan kelompok kontrol (menggunakan LMS standar).
                             </p>
                         </div>
@@ -192,8 +121,8 @@
                             <h3 class="text-2xl font-bold text-gray-900 mb-6">(a) Hasil Uji Wilcoxon Signed-Rank Test (Dalam Kelompok) - Kelompok Eksperimen</h3>                            <!-- Table -->
                             <div class="mb-8">
                                 <div class="bg-gray-100 rounded-lg overflow-hidden max-w-xl mx-auto">
-                                    <img src="images/grafik/tabel wilcoxson signed rank test.png" 
-                                         alt="TABEL (a): Wilcoxon Signed-Rank Test – Data Numerik Nilai Pre-Test & Post-Test Kelompok Eksperimen" 
+                                    <img src="images/grafik/tabel wilcoxson signed rank test.png"
+                                         alt="TABEL (a): Wilcoxon Signed-Rank Test – Data Numerik Nilai Pre-Test & Post-Test Kelompok Eksperimen"
                                          class="w-full h-auto">
                                 </div>
                                 <p class="text-sm text-gray-600 text-center mt-2">TABEL (a): Wilcoxon Signed-Rank Test – Data Numerik Nilai Pre-Test & Post-Test Kelompok Eksperimen</p>
@@ -201,8 +130,8 @@
                               <!-- Image placeholder -->
                             <div class="mb-8">
                                 <div class="bg-gray-100 rounded-lg overflow-hidden max-w-2xl mx-auto">
-                                    <img src="images/grafik/distribusi nilai pretest vs post test violin plot kelompok eksperimen.png" 
-                                         alt="Grafik Wilcoxon Signed-Rank Test - Kelompok Eksperimen" 
+                                    <img src="images/grafik/distribusi nilai pretest vs post test violin plot kelompok eksperimen.png"
+                                         alt="Grafik Wilcoxon Signed-Rank Test - Kelompok Eksperimen"
                                          class="w-full h-auto">
                                 </div>
                                 <p class="text-sm text-gray-600 text-center mt-2">Grafik Wilcoxon Signed-Rank Test - Kelompok Eksperimen</p>
@@ -215,15 +144,15 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- (b) Hasil Uji Wilcoxon Signed-Rank Test - Kelompok Kontrol -->
                         <div class="bg-white rounded-xl shadow-lg p-8 mb-12">
                             <h3 class="text-2xl font-bold text-gray-900 mb-6">(b) Hasil Uji Wilcoxon Signed-Rank Test (Dalam Kelompok) - Kelompok Kontrol</h3>
                               <!-- Image placeholder -->
                             <div class="mb-8">
                                 <div class="bg-gray-100 rounded-lg overflow-hidden max-w-2xl mx-auto">
-                                    <img src="images/grafik/distribusi nilai pre test vs post test violin plot kelompok kontrol.png" 
-                                         alt="Grafik Wilcoxon Signed-Rank Test - Kelompok Kontrol" 
+                                    <img src="images/grafik/distribusi nilai pre test vs post test violin plot kelompok kontrol.png"
+                                         alt="Grafik Wilcoxon Signed-Rank Test - Kelompok Kontrol"
                                          class="w-full h-auto">
                                 </div>
                                 <p class="text-sm text-gray-600 text-center mt-2">Grafik Wilcoxon Signed-Rank Test - Kelompok Kontrol</p>
@@ -236,14 +165,14 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- (c) Hasil Uji Mann-Whitney U -->
                         <div class="bg-white rounded-xl shadow-lg p-8 mb-12">
                             <h3 class="text-2xl font-bold text-gray-900 mb-6">(c) Hasil Uji Mann-Whitney U (Antar Kelompok)</h3>                            <!-- Table -->
                             <div class="mb-8">
                                 <div class="bg-gray-100 rounded-lg overflow-hidden max-w-xl mx-auto">
-                                    <img src="images/grafik/tabel mann whitney u antar kelompok.png" 
-                                         alt="TABEL (c): Mann-Whitney U – Perbandingan Nilai Post-Test Antara Kelompok Eksperimen dan Kontrol" 
+                                    <img src="images/grafik/tabel mann whitney u antar kelompok.png"
+                                         alt="TABEL (c): Mann-Whitney U – Perbandingan Nilai Post-Test Antara Kelompok Eksperimen dan Kontrol"
                                          class="w-full h-auto">
                                 </div>
                                 <p class="text-sm text-gray-600 text-center mt-2">TABEL (c): Mann-Whitney U – Perbandingan Nilai Post-Test Antara Kelompok Eksperimen dan Kontrol</p>
@@ -251,8 +180,8 @@
                               <!-- Image placeholder -->
                             <div class="mb-8">
                                 <div class="bg-gray-100 rounded-lg overflow-hidden max-w-2xl mx-auto">
-                                    <img src="images/grafik/distribusi nilai post test per topik kelompok eksperimen vs kontrol.png" 
-                                         alt="Grafik Mann-Whitney U - Perbandingan Nilai Akhir" 
+                                    <img src="images/grafik/distribusi nilai post test per topik kelompok eksperimen vs kontrol.png"
+                                         alt="Grafik Mann-Whitney U - Perbandingan Nilai Akhir"
                                          class="w-full h-auto">
                                 </div>
                                 <p class="text-sm text-gray-600 text-center mt-2">Grafik Mann-Whitney U - Perbandingan Nilai Akhir</p>
@@ -265,20 +194,20 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Hasil Penilaian Kebergunaan dengan SUS -->
                         <div class="bg-white rounded-xl shadow-lg p-8 mb-12">
                             <h3 class="text-2xl font-bold text-gray-900 mb-6">Hasil Penilaian Kebergunaan dengan System Usability Scale (SUS)</h3>
                               <!-- Image placeholder -->
                             <div class="mb-8">
                                 <div class="bg-gray-100 rounded-lg overflow-hidden max-w-2xl mx-auto">
-                                    <img src="images/grafik/rata rata skor sus tiap tahapan.png" 
-                                         alt="Grafik SUS - Skor Rata-rata" 
+                                    <img src="images/grafik/rata rata skor sus tiap tahapan.png"
+                                         alt="Grafik SUS - Skor Rata-rata"
                                          class="w-full h-auto">
                                 </div>
                                 <p class="text-sm text-gray-600 text-center mt-2">Grafik SUS - Skor Rata-rata</p>
                             </div>
-                            
+
                             <!-- Interpretasi -->
                             <div class="bg-blue-50 border-l-4 border-blue-400 p-6">
                                 <h4 class="text-lg font-semibold text-blue-800 mb-3">Interpretasi:</h4>
@@ -287,15 +216,15 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <!-- Hasil Penilaian Pengalaman Pengguna dengan UEQ+ -->
                         <div class="bg-white rounded-xl shadow-lg p-8 mb-12">
                             <h3 class="text-2xl font-bold text-gray-900 mb-6">Hasil Penilaian Pengalaman Pengguna dengan User Experience Questionnaire Plus (UEQ+)</h3>
                               <!-- Image placeholder -->
                             <div class="mb-8">
                                 <div class="bg-gray-100 rounded-lg overflow-hidden max-w-2xl mx-auto">
-                                    <img src="images/grafik/Hasil Penilaian Pengalaman Pengguna dengan UEQ+.png" 
-                                         alt="Grafik UEQ+ - Skor Aspek UX" 
+                                    <img src="images/grafik/Hasil Penilaian Pengalaman Pengguna dengan UEQ+.png"
+                                         alt="Grafik UEQ+ - Skor Aspek UX"
                                          class="w-full h-auto">
                                 </div>
                                 <p class="text-sm text-gray-600 text-center mt-2">Grafik UEQ+ - Skor Aspek UX</p>
@@ -320,8 +249,8 @@
                             <!-- Documentation Image 1 -->
                             <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                                 <div class="overflow-hidden">
-                                    <img src="images/dokumentasi/dokumentasi-1.png" 
-                                         alt="Dokumentasi pengambilan data - Setup eksperimen dan laboratorium" 
+                                    <img src="images/dokumentasi/dokumentasi-1.png"
+                                         alt="Dokumentasi pengambilan data - Setup eksperimen dan laboratorium"
                                          class="w-full h-auto">
                                 </div>
                                 <div class="p-6">
@@ -333,8 +262,8 @@
                             <!-- Documentation Image 2 -->
                             <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
                                 <div class="overflow-hidden">
-                                    <img src="images/dokumentasi/dokumentasi-2.png" 
-                                         alt="Dokumentasi pengambilan data - Sesi pembelajaran dengan partisipan mahasiswa" 
+                                    <img src="images/dokumentasi/dokumentasi-2.png"
+                                         alt="Dokumentasi pengambilan data - Sesi pembelajaran dengan partisipan mahasiswa"
                                          class="w-full h-auto">
                                 </div>
                                 <div class="p-6">
@@ -356,7 +285,7 @@
                             Feedback dan testimoni dari pengguna yang telah menggunakan sistem AdaptiXLearn
                         </p>
                     </div>
-                    
+
                     <!-- Testimonials Grid -->
                     <div class="grid md:grid-cols-2 gap-8">                        <!-- Testimonial 1 -->
                         <div class="bg-white rounded-xl shadow-lg p-8">                            <div class="flex items-start space-x-4">
@@ -371,7 +300,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Testimonial 2 -->
                         <div class="bg-white rounded-xl shadow-lg p-8">                            <div class="flex items-start space-x-4">
                                 <div class="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
@@ -385,7 +314,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Testimonial 3 -->
                         <div class="bg-white rounded-xl shadow-lg p-8">                            <div class="flex items-start space-x-4">
                                 <div class="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
@@ -399,7 +328,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Testimonial 4 -->
                         <div class="bg-white rounded-xl shadow-lg p-8">                            <div class="flex items-start space-x-4">
                                 <div class="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
